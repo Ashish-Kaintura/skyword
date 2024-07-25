@@ -203,7 +203,7 @@ export default function Header() {
         style={{ top: isScrolled ? 0 : 70 }}
       >
         <div className="flex justify-center">
-          <ul className="pt-16">
+          {/* <ul className="pt-16">
             <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
               <Link href="/">Home</Link>
             </li>
@@ -251,7 +251,7 @@ export default function Header() {
             <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
               <Link href="/gallery">Gallery</Link>
             </li>
-          </ul>
+          </ul> */}
           <div>
             <button onClick={toggleMenu} className="cursor-pointer closebtn">
               {isMenuOpen ? (
