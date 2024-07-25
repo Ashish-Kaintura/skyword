@@ -35,7 +35,7 @@ export default function ServicesCard() {
 
   return (
     <div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center sm:pt-12 py-12 gap-12 lg:mx-8 lg:px-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center sm:pt-12 py-12 gap-12 lg:mx-8 lg:px-12">
         {loading ? (
           <p>Loading...</p>
         ) : error ? (
