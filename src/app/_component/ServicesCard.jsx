@@ -54,18 +54,10 @@ export default function ServicesCard() {
                 </div>
                 <div className="p-4">
                   <h2 className="text-blue-700 font-raleway tracking-widest py-2 text-sm">
-                    Budget-Friendly Travel Made Easy
+                    {item.name}
                   </h2>
                   <p className="w-96 text-xs font-sans font-semibold line-clamp-6">
-                    Planning an affordable vacation can seem challenging but we
-                    are here to help make travels fit seamlessly within your
-                    budget. Our team consists of professional travel consultants
-                    who understand costs incurred and thus strive to get the
-                    best package and product deals. Benefiting from a high level
-                    of partnerships with airlines, hotels and car rental
-                    companies, we can organize attractive promotions and
-                    negotiate with suppliers about more favorable rates, which
-                    makes our offers profitable for you.
+                   {item.description}
                   </p>
                   <div className="flex items-center gap-x-1 text-sm hover:text-blue-700 font-raleway tracking-widest text-blue-700 mt-4">
                     <button className="px-4 py-2 rounded-lg text-xm font-sans border-2 border-blue-700 hover:bg-blue-700 hover:text-white">

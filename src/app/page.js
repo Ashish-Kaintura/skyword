@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <HomeBanner />
       <section>
-        <div className=" px-2 pb-20 sm:pt-12 pt-5">
+        <div className=" px-2 pb-20 sm:py-20">
           <div className="sm:flex sm:justify-around justify-center gap-x-6 items-center">
             <div className=" font-raleway tracking-widest">
               <h1 className="text-3xl text-blue-700 ">
