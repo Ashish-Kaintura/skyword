@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./_component/Header";
 import HomeBanner from "./_component/HomeBanner";
+import ServicesCard from "./_component/ServicesCard";
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
         </div>
       </section>
       <section>
-        
+        <ServicesCard/>
       </section>
       <section className="h-[100vh] bg-black"></section>
     </>
