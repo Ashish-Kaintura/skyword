@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Banner from "/public/Images/ServicesImage/Banner.jpg";
+import Banner from "/public/Images/About Us/banner.png";
 import Header from "../_component/Header";
 import Footer from "../_component/Footer";
 import FAQ from "../_component/FAQ";
