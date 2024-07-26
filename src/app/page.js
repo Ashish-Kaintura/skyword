@@ -4,7 +4,7 @@ import Image from "next/image";
 import Header from "./_component/Header";
 import HomeBanner from "./_component/HomeBanner";
 import ServicesCard from "./_component/ServicesCard";
-import WhyUs from "/public/Images/HomeImage/Biz-flights.jpg";
+import WhyUs from "/public/Images/HomeImage/banner4.jpg";
 import Footer from "./_component/Footer";
 import FAQ from "./_component/FAQ";
 export default function Home() {
