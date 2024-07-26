@@ -122,11 +122,14 @@ export default function Header() {
       >
         <div className="">
           <div className="w-32  overflow-hidden">
-            <Image
-              className="w-full h-full object-cover"
-              alt="logo"
-              src={Logo}
-            ></Image>
+            <Link href="/" >
+          
+              <Image
+                className="w-full h-full object-cover"
+                alt="logo"
+                src={Logo}
+              ></Image>
+            </Link>
           </div>
         </div>
         <div className="">
@@ -134,7 +137,7 @@ export default function Header() {
             <li>
               <Link
                 className="text-sm  font-sans hover:border-b-2 border-zinc-400 transition-all ease-in dealy-300 active"
-                href="index.html"
+                href="/"
               >
                 Home
               </Link>
@@ -142,7 +145,7 @@ export default function Header() {
             <li>
               <Link
                 className="text-sm  font-sans hover:border-b-2 border-zinc-400 transition-all ease-in dealy-300"
-                href="Gloabl-Network.html"
+                href="/About-skyworldtour"
               >
                 About
               </Link>
@@ -150,7 +153,7 @@ export default function Header() {
             <li>
               <Link
                 className="text-sm  font-sans hover:border-b-2 border-zinc-400 transition-all ease-in dealy-300"
-                href="services.html"
+                href="/services"
               >
                 Service
               </Link>
@@ -159,7 +162,7 @@ export default function Header() {
             <li>
               <Link
                 className="text-sm  font-sans hover:border-b-2 border-zinc-400 transition-all ease-in dealy-300"
-                href="blogs.html"
+                href="/blogs"
               >
                 Blogs
               </Link>
@@ -168,7 +171,7 @@ export default function Header() {
             <li>
               <Link
                 className="text-sm  font-sans hover:border-b-2 border-zinc-400 transition-all ease-in dealy-300"
-                href="Careers.html"
+                href="/Careers"
               >
                 Career
               </Link>
@@ -178,7 +181,7 @@ export default function Header() {
         <div className="">
           <ul className="sm:flex hidden font-kepler">
             <li>
-              <Link href="Contact.html">
+              <Link href="/contactus">
                 <button className="px-4 py-2 border-blue-700 border-2 text-sm font-sans  rounded-lg">
                   Contact Us
                 </button>

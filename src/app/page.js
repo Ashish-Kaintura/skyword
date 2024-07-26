@@ -45,7 +45,7 @@ export default function Home() {
       <section>
         <div className="flex justify-center py-4">
           <h2 className="text-3xl font-raleway tracking-widest text-center pb-2 text-blue-700 border-b-2 uppercase">
-            Services
+            Wha we Provide
           </h2>
         </div>
         <ServicesCard />
@@ -90,6 +90,7 @@ export default function Home() {
             <div>
               <div className="flexc justify-center sm:w-[420px] overflow-hidden shadow-lg border-2">
                 <Image
+                  alt="skyworldtour"
                   className="w-full h-full object-cover"
                   src={WhyUs}
                   layout="responsive"
@@ -139,7 +140,7 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-gray-200">
-        <FAQ/>
+        <FAQ />
       </section>
       <Footer />
     </>

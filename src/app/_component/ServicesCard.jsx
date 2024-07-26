@@ -46,6 +46,7 @@ export default function ServicesCard() {
               <div className="border-2">
                 <div className="lg:w-[450px] w-[420px] h-72 overflow-hidden flex justify-center">
                   <Image
+                  alt="skyworldtour"
                     className="w-full h-full object-cover"
                     src={item.image1}
                     width={420} // Adjust width as needed
