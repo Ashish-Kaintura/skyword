@@ -1,7 +1,7 @@
 "use client";
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState } from "react";
-import Banner from "/public/Images/Servicesimage/banner.jpg";
+import Banner from "/public/Images/ServicesImage/Banner.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "../_component/Header";
