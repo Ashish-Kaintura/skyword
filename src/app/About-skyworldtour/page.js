@@ -6,7 +6,7 @@ import Link from "next/link";
 import Header from "../_component/Header";
 import Footer from "../_component/Footer";
 import Banner from "/public/Images/About Us/banner.png";
-import Aboutus from "/public/Images/About Us/banner.jpg";
+import Aboutus from "/public/Images/About Us/Banner.jpg";
 
 const Page = () => {
   return (
