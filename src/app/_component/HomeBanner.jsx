@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Banner from "/public/Images/HomeImage/banner1.jpg";
-import Banner1 from "/public/Images/HomeImage/banner2.jpg";
+import Banner1 from "/public/Images/HomeImage/banner2.jpeg";
 import Banner2 from "/public/Images/HomeImage/banner3.jpg";
 import Banner3 from "/public/Images/HomeImage/Biz-flights.jpg";
 // import Banner4 from "/public/Images/HomeImage/tw-global-travel.jpg";
