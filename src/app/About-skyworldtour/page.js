@@ -24,7 +24,7 @@ const Page = () => {
           </h1>
 
           <section className="mb-16">
-            <div className="sm:flex  sm:justify-between justify-between items-center">
+            <div className="sm:flex sm:justify-between justify-center items-center p-4">
               <div className="">
                 <div className="sm:w-[550px] sm:h-[490px] overflow-hidden flex justify-center">
                   <Image
@@ -36,10 +36,10 @@ const Page = () => {
                 </div>
               </div>
               <div className="">
-                <h2 className="text-2xl font-raleway tracking-wide text-blue-500 mb-4">
+                <h2 className="text-2xl font-raleway tracking-wide text-blue-500 mb-4 sm:mt-0 mt-4">
                   Welcome to Skyworldtour Corp
                 </h2>
-                <p className="text-sm font-sans mb-4 w-[650px]">
+                <p className="text-sm font-sans mb-4 sm:w-[650px]">
                   Welcome to Skyworldtour Corp, where your journey to
                   unforgettable travel experiences begins. Founded with a
                   passion for exploration and a commitment to excellence, we are

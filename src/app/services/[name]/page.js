@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 // "use client";
 
 // import { useEffect, useState } from 'react';
@@ -68,11 +69,28 @@ export default function ServiceDetail() {
   return (
     <>
       <Header />
+      
       <section>
         <div className="pt-28">
-          <h1>{service.Title}</h1>
-          <img src={service.image1} alt={service.name} />
-          <p>{service.description}</p>
+          <div className="sm:flex sm:justify-around justify-center items-center p-5">
+            <div className="">
+              <div className="sm:w-[450px] sm:h-[400px] overflow-hidden flex justify-center">
+                <img
+                  className="w-full h-full object-cover"
+                  src={service.image1}
+                  alt={service.name}
+                />
+              </div>
+            </div>
+            <div className="">
+              <h1 className="text-2xl font-raleway tracking-wide text-blue-500 mb-4 sm:mt-0 mt-4">
+                {service.Title}
+              </h1>
+              <p className="text-sm font-sans mb-4 sm:w-[650px]">
+                {service.description}
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />
