@@ -42,7 +42,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Header from "@/app/_component/Header";
 import Footer from "@/app/_component/Footer";
-
+import Image from "next/image";
 export default function ServiceDetail() {
   const { name } = useParams();
   const [service, setService] = useState(null);
@@ -69,9 +69,19 @@ export default function ServiceDetail() {
   return (
     <>
       <Header />
-      
+      <div className="pt-28">
+        <div className="sm:w-full sm:h-[700px] overflow-hidden">
+          <Image
+            className="w-full h-full object-cover"
+            src={service.Banner}
+            alt="Banner"
+            width={800}
+            height={700}
+          />
+        </div>
+      </div>
       <section>
-        <div className="pt-28">
+        <div className="pt-8">
           <div className="sm:flex sm:justify-around justify-center items-center p-5">
             <div className="">
               <div className="sm:w-[450px] sm:h-[400px] overflow-hidden flex justify-center">

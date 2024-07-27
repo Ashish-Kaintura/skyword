@@ -3,6 +3,7 @@
 export const servicebox = [
   {
     id: 1,
+    Banner:"/Images/ServicesImage/b2b.jpg",
     name: "B2B-Corporate-Travel-Management",
     Title: "B2B Corporate Travel Management",
     image1: "/Images/ServicesImage/b2b-soltion.jpg",
@@ -11,6 +12,7 @@ export const servicebox = [
   },
   {
     id: 2,
+    Banner:"/Images/ServicesImage/flight bookingBanneer.jpg",
     name: "Flight-Bookings",
     Title: "Flight Bookings",
     image1: "/Images/ServicesImage/flight-booking.jpg",
@@ -19,6 +21,7 @@ export const servicebox = [
   },
   {
     id: 3,
+    Banner:"/Images/ServicesImage/hotel reservation banner.png",
     name: "Hotel-Reservations",
     Title: "Hotel Reservations",
     image1: "/Images/ServicesImage/hotel-reservation.png",
@@ -27,6 +30,7 @@ export const servicebox = [
   },
   {
     id: 4,
+    Banner:"/Images/ServicesImage/car rentelbanner.jpg",
     name: "Car-Rentals",
     Title: "Car-Rentals",
     image1: "/Images/ServicesImage/car-rentel.jpg",
@@ -35,6 +39,7 @@ export const servicebox = [
   },
   {
     id: 5,
+    Banner:"/Images/ServicesImage/Excursion Bookings.jpg",
     name: "Excursion-Bookings",
     Title: "Excursion Bookings",
     image1: "/Images/ServicesImage/exbooking.jpg",
@@ -43,6 +48,7 @@ export const servicebox = [
   },
   {
     id: 6,
+    Banner:"/Images/ServicesImage/Online Resources.jpeg",
     name: "Online-Resources",
     Title: "Online Resources",
     image1: "/Images/ServicesImage/Online-booking.jpg",

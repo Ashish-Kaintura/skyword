@@ -3,7 +3,7 @@ import React from "react";
 import Head from "next/head";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Logo from "/public/Images/HomeImage/Skyworldtour logo jpg.jpg";
+import Logo from "/public/Images/logo/Skyworldtour logo.png";
 import { TiThMenu, TiTimes } from "react-icons/ti";
 import { IoMail } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -121,11 +121,11 @@ export default function Header() {
         }`}
       >
         <div className="">
-          <div className="w-32  overflow-hidden">
+          <div className="w-[140px]  overflow-hidden">
             <Link href="/" >
           
               <Image
-                className="w-full h-full object-cover"
+                className="w-full h-full "
                 alt="logo"
                 src={Logo}
               ></Image>
