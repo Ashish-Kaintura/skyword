@@ -46,7 +46,7 @@ export default function ServicesCard() {
               <div className="border-2">
                 <div className="lg:w-[450px] w-[420px] h-72 overflow-hidden flex justify-center">
                   <Image
-                  alt="skyworldtour"
+                    alt="skyworldtour"
                     className="w-full h-full object-cover"
                     src={item.image1}
                     width={420} // Adjust width as needed
@@ -58,13 +58,12 @@ export default function ServicesCard() {
                     {item.name}
                   </h2>
                   <p className="w-96 text-xs font-sans font-semibold line-clamp-6">
-                   {item.description}
+                    {item.description}
                   </p>
                   <div className="flex items-center gap-x-1 text-sm hover:text-blue-700 font-raleway tracking-widest text-blue-700 mt-4">
-                  <Link href={`/services/${item.name}`}>  <button className="px-4 py-2 rounded-lg text-xm font-sans border-2 border-blue-700 hover:bg-blue-700 hover:text-white">
+                    <button className="px-4 py-2 rounded-lg text-xm font-sans border-2 border-blue-700 hover:bg-blue-700 hover:text-white">
                       Know more
                     </button>
-                    </Link>
                   </div>
                 </div>
               </div>

@@ -51,57 +51,53 @@ export default function Home() {
         <ServicesCard />
       </section>
       <section>
-        <div className=" px-2 pb-20 sm:pt-12 pt-5 bg-gray-200">
-          <div className="sm:flex sm:justify-around justify-center gap-x-6 items-center">
-            <div className=" font-raleway ">
-              <h2 className="text-lg  tracking-wide">Why Choose</h2>
-              <h2 className="text-4xl mt-1 text-blue-700 tracking-wide">
-                Skyworldtour
-              </h2>
+        <div className="sm:flex sm:justify-around justify-center py-16 px-4 bg-gray-200">
+          <div className=" font-raleway ">
+            <h2 className="text-lg  tracking-wide">Why Choose</h2>
+            <h2 className="text-4xl mt-1 text-blue-700 tracking-wide">
+              Skyworldtour
+            </h2>
+            <p className="sm:w-[600px] font-sans text-sm mt-2">
+              <span className="text-2xl"> W</span>ith our company as your
+              full-service travel agency, guests are assured of a stress-free
+              travel planning process that is founded on our expertise. The
+              appeal of cheap prices, professional performances, and good
+              attitude towards customers has led to hundreds of positive
+              reviews. Customers enjoy our friendly approach and quick response
+              to all their inquiries. If you need a free, no obligation quote on
+              your next vacation, feel free to get one of our representatives on
+              the phone now.
+            </p>
+            <br />
+            <p className="sm:w-[600px] font-sans text-sm mt-2">
+              The purpose of Skyworldtour is to help people make their traveling
+              dreams around the world come true. It is our conviction that
+              memorable travel experiences can alter us to the very core and
+              become the basis for a lifetime narrative. Let our team of travel
+              guides help in planning your travel, in order to take you to your
+              dream destination all in style and within your budget. Together,
+              lets start planning your next exciting adventure!
+            </p>
+            <div className="flex items-center gap-x-1 text-sm hover:text-blue-700 font-raleway tracking-widest text-blue-700 m-4">
+              <button className="px-4 py-2 rounded-lg text-xm font-sans border-2 border-blue-700 hover:bg-blue-700 hover:text-white">
+                More Info
+              </button>
+            </div>
+          </div>
 
-              <p className="sm:w-[600px] font-sans text-sm mt-2">
-                <span className="text-4xl"> W</span>ith our company as your
-                full-service travel agency, guests are assured of a stress-free
-                travel planning process that is founded on our expertise. The
-                appeal of cheap prices, professional performances, and good
-                attitude towards customers has led to hundreds of positive
-                reviews. Customers enjoy our friendly approach and quick
-                response to all their inquiries. If you need a free, no
-                obligation quote on your next vacation, feel free to get one of
-                our representatives on the phone now.
-              </p>
-              <br />
-              <p className="sm:w-[600px] font-sans text-sm mt-2">
-                The purpose of Skyworldtour is to help people make their
-                traveling dreams around the world come true. It is our
-                conviction that memorable travel experiences can alter us to the
-                very core and become the basis for a lifetime narrative. Let our
-                team of travel guides help in planning your travel, in order to
-                take you to your dream destination all in style and within your
-                budget. Together, lets start planning your next exciting
-                adventure!
-              </p>
-              <div className="flex items-center gap-x-1 text-sm hover:text-blue-700 font-raleway tracking-widest text-blue-700 mt-4">
-                <button className="px-4 py-2 rounded-lg text-xm font-sans border-2 border-blue-700 hover:bg-blue-700 hover:text-white">
-                  More Info
-                </button>
-              </div>
-            </div>
-            <div>
-              <div className="flexc justify-center sm:w-[420px] overflow-hidden shadow-lg border-2">
-                <Image
-                  alt="skyworldtour"
-                  className="w-full h-full object-cover"
-                  src={WhyUs}
-                  layout="responsive"
-                />
-              </div>
-            </div>
+          <div className="flex justify-center sm:w-[420px] overflow-hidden shadow-lg border-2 mt-4 sm:mt-0">
+            <Image
+              alt="skyworldtour"
+              className="w-full h-full object-cover"
+              src={WhyUs}
+              layout="responsive"
+            />
           </div>
         </div>
       </section>
+
       <section className="bg-white dark:bg-gray-900">
-        <div className="flex justify-center" >
+        <div className="flex justify-center">
           <h3 className="text-center pt-12 font-raleway tracking-widest uppercase pb-4 border-b-2 border-gray-400 text-blue-700 text-3xl">
             Testimonials
           </h3>

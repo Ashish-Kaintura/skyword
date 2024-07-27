@@ -44,7 +44,7 @@ export default function HomeBanner() {
       <Slider {...settings}>
         {banners.map((banner, index) => (
           <div key={index} className=" pt-20 ">
-            <div className="flex justify-center h-[700px] overflow-hidden">
+            <div className="flex justify-center sm:h-[700px] overflow-hidden">
               <Image className="w-full h-full object-cover" src={banner.image}></Image>
             </div>
           </div>
