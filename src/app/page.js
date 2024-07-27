@@ -101,6 +101,11 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-white dark:bg-gray-900">
+        <div className="flex justify-center" >
+          <h3 className="text-center pt-12 font-raleway tracking-widest uppercase pb-4 border-b-2 border-gray-400 text-blue-700 text-3xl">
+            Testimonials
+          </h3>
+        </div>
         <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
           <figure className="max-w-screen-md mx-auto">
             <svg
@@ -115,7 +120,10 @@ export default function Home() {
               />
             </svg>
             <blockquote>
-              <p className="text-2xl font-medium text-gray-900 dark:text-white font-sans">
+              <p className="text-normal font-sans text-gray-900 dark:text-white ">
+                Flowbite is just awesome. It contains tons of predesigned
+                components and pages starting from login screen to complex
+                dashboard. Perfect choice for your next SaaS application.
                 Flowbite is just awesome. It contains tons of predesigned
                 components and pages starting from login screen to complex
                 dashboard. Perfect choice for your next SaaS application.

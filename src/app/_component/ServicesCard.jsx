@@ -2,7 +2,7 @@
 "use client"; // Add this at the top of your file
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 export default function ServicesCard() {
   const [servicecard, setServicecard] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -61,9 +61,10 @@ export default function ServicesCard() {
                    {item.description}
                   </p>
                   <div className="flex items-center gap-x-1 text-sm hover:text-blue-700 font-raleway tracking-widest text-blue-700 mt-4">
-                    <button className="px-4 py-2 rounded-lg text-xm font-sans border-2 border-blue-700 hover:bg-blue-700 hover:text-white">
+                  <Link href={`/services/${item.title}`}>  <button className="px-4 py-2 rounded-lg text-xm font-sans border-2 border-blue-700 hover:bg-blue-700 hover:text-white">
                       Know more
                     </button>
+                    </Link>
                   </div>
                 </div>
               </div>
