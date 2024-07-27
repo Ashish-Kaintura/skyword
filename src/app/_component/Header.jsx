@@ -171,9 +171,9 @@ export default function Header() {
             <li>
               <Link
                 className="text-sm  font-sans hover:border-b-2 border-zinc-400 transition-all ease-in dealy-300"
-                href="/Careers"
+                href="/privacy-policy"
               >
-                Career
+                Privacy Policy
               </Link>
             </li>
           </ul>
