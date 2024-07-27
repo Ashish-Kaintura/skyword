@@ -61,7 +61,7 @@ export default function ServicesCard() {
                    {item.description}
                   </p>
                   <div className="flex items-center gap-x-1 text-sm hover:text-blue-700 font-raleway tracking-widest text-blue-700 mt-4">
-                  <Link href={`/services/${item.title}`}>  <button className="px-4 py-2 rounded-lg text-xm font-sans border-2 border-blue-700 hover:bg-blue-700 hover:text-white">
+                  <Link href={`/services/${item.name}`}>  <button className="px-4 py-2 rounded-lg text-xm font-sans border-2 border-blue-700 hover:bg-blue-700 hover:text-white">
                       Know more
                     </button>
                     </Link>
