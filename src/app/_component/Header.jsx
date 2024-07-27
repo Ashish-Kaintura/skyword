@@ -155,7 +155,7 @@ export default function Header() {
                 className="text-sm  font-sans hover:border-b-2 border-zinc-400 transition-all ease-in dealy-300"
                 href="/services"
               >
-                Service
+                Services
               </Link>
             </li>
 
