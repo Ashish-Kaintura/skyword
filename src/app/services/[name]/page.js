@@ -1,60 +1,80 @@
-"use client"; // Ensure this is at the top of the file
+// "use client";
 
-import React, { useEffect, useState } from "react";
-import { useRouter } from 'next/navigation'; // Correct import for Next.js 13 with App Router
+// import { useEffect, useState } from 'react';
+// import { useParams } from 'next/navigation';
+
+// export default function ServiceDetail() {
+//   const { id } = useParams();
+//   const [service, setService] = useState(null);
+//   const [loading, setLoading] = useState(true);
+
+//   useEffect(() => {
+//     if (id) {
+//       fetch(`/api/servicebox/${id}`)
+//         .then(response => response.json())
+//         .then(data => {
+//           setService(data);
+//           setLoading(false);
+//         })
+//         .catch(error => {
+//           console.error('Error fetching service data:', error);
+//           setLoading(false);
+//         });
+//     }
+//   }, [id]);
+
+//   if (loading) return <div>Loading...</div>;
+//   if (!service) return <div>Service not found</div>;
+
+//   return (
+//     <div>
+//       <h1>{service.Title}</h1>
+//       <img src={service.image1} alt={service.name} />
+//       <p>{service.description}</p>
+//     </div>
+//   );
+// }
+
+"use client";
+
+import { useEffect, useState } from "react";
+import { useParams } from "next/navigation";
 import Header from "@/app/_component/Header";
 import Footer from "@/app/_component/Footer";
 
-export default function ServiceDetailPage() {
-  const router = useRouter();
-  const { name } = router.query || {}; // Provide fallback to handle undefined
-
+export default function ServiceDetail() {
+  const { name } = useParams();
   const [service, setService] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
-    if (!name) return; // Exit early if name is not available
-
-    const fetchData = async () => {
-      try {
-        const response = await fetch(`/api/servicebox/${name}`, {
-          headers: {
-            "Cache-Control": "no-cache",
-          },
+    if (name) {
+      fetch(`/api/servicebox/${name}`)
+        .then((response) => response.json())
+        .then((data) => {
+          setService(data);
+          setLoading(false);
+        })
+        .catch((error) => {
+          console.error("Error fetching service data:", error);
+          setLoading(false);
         });
-        if (!response.ok) {
-          throw new Error(`Error: ${response.status}`);
-        }
-        const data = await response.json();
-        setService(data);
-        setLoading(false);
-      } catch (error) {
-        console.error("There was an error fetching the service detail!", error);
-        setError(`There was an error fetching the service detail! ${error.message}`);
-        setLoading(false);
-      }
-    };
-
-    fetchData();
+    }
   }, [name]);
+
+  if (loading) return <div>Loading...</div>;
+  if (!service) return <div>Service not found</div>;
 
   return (
     <>
       <Header />
-      <div className="pt-28 px-4">
-        {loading ? (
-          <p>Loading...</p>
-        ) : error ? (
-          <p>{error}</p>
-        ) : (
-          <div>
-            <h1 className="text-2xl font-bold">{service.Title}</h1>
-            <p className="mt-4 text-lg">{service?.description}</p>
-            {/* Add more details and styling as needed */}
-          </div>
-        )}
-      </div>
+      <section>
+        <div className="pt-28">
+          <h1>{service.Title}</h1>
+          <img src={service.image1} alt={service.name} />
+          <p>{service.description}</p>
+        </div>
+      </section>
       <Footer />
     </>
   );

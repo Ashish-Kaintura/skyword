@@ -1,6 +1,6 @@
 // src/app/api/servicebox/route.js
 
-const servicebox = [
+export const servicebox = [
   {
     id: 1,
     name: "B2B-Corporate-Travel-Management",
@@ -25,7 +25,6 @@ const servicebox = [
     description:
       "Use the links provided below to view our large range of hotels in various destinations worldwide. You can check and compare the ratings, amenities, pictures, and real customers’ reviews to choose a suitable place to stay. We provide offers and promotions for different hotel classes starting from economical to the luxurious ones.",
   },
-
   {
     id: 4,
     name: "Car-Rentals",
