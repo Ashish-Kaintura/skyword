@@ -44,75 +44,7 @@ const Footer = () => {
               Home
             </Link>
             <Link
-              href="/about"
-              className="text-[15px] font-semibold text-slate-600"
-            >
-              About
-            </Link>
-            <Link
-              href="/our-vision"
-              className="text-[15px] font-semibold text-slate-600"
-            >
-              Our Vision
-            </Link>
-            <Link
-              href="/why-choose-us"
-              className="text-[15px] font-semibold text-slate-600"
-            >
-              Why Choose Us
-            </Link>
-            <Link
-              href="/our-company"
-              className="text-[15px] font-semibold text-slate-600"
-            >
-              Our Company
-            </Link>
-            <Link
-              href="/our-team"
-              className="text-[15px] font-semibold text-slate-600"
-            >
-              Our Team
-            </Link>
-          </div>
-          <div className="font-sans flex flex-col text-xl gap-2">
-            <Link
-              href="/blogs"
-              className="text-[15px] font-semibold text-slate-600"
-            >
-              Blogs
-            </Link>
-            <Link
-              href="/services"
-              className="text-[15px] font-semibold text-slate-600"
-            >
-              Services
-            </Link>
-
-            <Link
-              href="/careers"
-              className="text-[15px] font-semibold text-slate-600"
-            >
-              Career
-            </Link>
-            <Link
-              href="/contact"
-              className="text-[15px] font-semibold text-slate-600"
-            >
-              Contact
-            </Link>
-          </div>
-        </div>
-
-        <div className="sm:hidden flex flex-col justify-center pb-5">
-          <h1 className="font-semibold text-center font-sans mb-2">
-            Quick Links
-          </h1>
-          <div className="flex justify-center gap-4 px-2 flex-wrap">
-            <Link href="/" className="text-[15px] font-semibold text-slate-600">
-              Home
-            </Link>
-            <Link
-              href="/about"
+              href="/About-skyworldtour"
               className="text-[15px] font-semibold text-slate-600"
             >
               About
@@ -124,22 +56,10 @@ const Footer = () => {
               Services
             </Link>
             <Link
-              href="/blogs"
+              href="/contactus"
               className="text-[15px] font-semibold text-slate-600"
             >
-              Blogs
-            </Link>
-            <Link
-              href="/global-network"
-              className="text-[15px] font-semibold text-slate-600"
-            >
-              Global Network
-            </Link>
-            <Link
-              href="/careers"
-              className="text-[15px] font-semibold text-slate-600"
-            >
-              Career
+              Contact Us
             </Link>
             <Link
               href="/privacy-policy"
@@ -148,10 +68,61 @@ const Footer = () => {
               Privacy Policy
             </Link>
             <Link
-              href="/contact"
+              href="/Blogs"
               className="text-[15px] font-semibold text-slate-600"
             >
-              Contact
+              Blog
+            </Link>
+            <Link
+              href="/careers"
+              className="text-[15px] font-semibold text-slate-600"
+            >
+              Career
+            </Link>
+          </div>
+        </div>
+
+        <div className="sm:hidden flex flex-col justify-center pb-5">
+          <div className="font-sans flex flex-col text-xl gap-2">
+            <h1 className="font-semibold font-sans mb-2">Quick Links</h1>
+            <Link href="/" className="text-[15px] font-semibold text-slate-600">
+              Home
+            </Link>
+            <Link
+              href="/About-skyworldtour"
+              className="text-[15px] font-semibold text-slate-600"
+            >
+              About
+            </Link>
+            <Link
+              href="/services"
+              className="text-[15px] font-semibold text-slate-600"
+            >
+              Services
+            </Link>
+            <Link
+              href="/contactus"
+              className="text-[15px] font-semibold text-slate-600"
+            >
+              Contact Us
+            </Link>
+            <Link
+              href="/privacy-policy"
+              className="text-[15px] font-semibold text-slate-600"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              href="/Blogs"
+              className="text-[15px] font-semibold text-slate-600"
+            >
+              Blog
+            </Link>
+            <Link
+              href="/careers"
+              className="text-[15px] font-semibold text-slate-600"
+            >
+              Career
             </Link>
           </div>
         </div>
