@@ -81,20 +81,20 @@ const FAQ = () => {
 // Sample FAQ items (replace these with your actual questions and answers)
 const faqItems = [
   {
-    question: 'How can I reset my password?',
-    answer: 'To reset your password, go to the login page and click on "Forgot Password". Follow the instructions sent to your email to reset your password.'
+    question: 'What are the benefits of using a corporate travel management service?',
+    answer: 'Streamlined bookings, cost savings, 24/7 support, and compliance monitoring.'
   },
   {
-    question: 'How do I update my billing information?',
-    answer: 'To update your billing information, log in to your account and navigate to the "Billing" section in your account settings. Update your information and save changes.'
+    question: 'How can these services reduce travel costs?',
+    answer: ' Through negotiated rates, expense tracking, and optimized travel itineraries.'
   },
   {
-    question: 'How can I contact customer support?',
-    answer: 'You can contact customer support through the "Contact Us" page on our website, or by sending an email to support@example.com.'
+    question: 'What support is available for travelers?',
+    answer: '24/7 assistance for booking changes and travel issues.'
   },
   {
-    question: 'How do I delete my account?',
-    answer: 'To delete your account, please contact our support team through the "Contact Us" page and request account deletion. Follow the instructions provided by our support team.'
+    question: 'How do services ensure policy compliance?',
+    answer: 'By integrating policy rules into bookings and providing compliance reporting.'
   }
 ];
 
