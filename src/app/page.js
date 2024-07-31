@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
+"use client";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Header from "./_component/Header";
 import HomeBanner from "./_component/HomeBanner";
@@ -9,7 +11,22 @@ import Footer from "./_component/Footer";
 import FAQ from "./_component/FAQ";
 import Link from "next/link";
 import Testimonials from "./_component/Testimonials";
+import SideLink from "./_component/SideLink";
+import PopupForm from "./_component/PopupForm";
 export default function Home() {
+  const [isPopupVisible, setPopupVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setPopupVisible(true);
+    }, 10000); // 10 seconds
+
+    return () => clearTimeout(timer); // Cleanup timer if component unmounts
+  }, []);
+
+  const closePopup = () => {
+    setPopupVisible(false);
+  };
   return (
     <>
       <Header />
@@ -19,7 +36,7 @@ export default function Home() {
           <div className="sm:flex sm:justify-around justify-center gap-x-6 items-center">
             <div className=" font-raleway tracking-widest">
               <h1 className="text-3xl text-blue-700 ">
-                Welcome to Skyworldtour{" "}
+                Welcome to Skyworldtour
               </h1>
               <h2 className="text-lg pt-2   tracking-wide">
                 Your Global Travel Companion
@@ -109,10 +126,16 @@ export default function Home() {
             Testimonials
           </h3>
         </div>
-     <Testimonials/>
+        <Testimonials />
       </section>
       <section className="bg-gray-200">
         <FAQ />
+      </section>
+      <section>
+      <PopupForm isVisible={isPopupVisible} onClose={closePopup} />
+      </section>
+      <section>
+        <SideLink />
       </section>
       <Footer />
     </>

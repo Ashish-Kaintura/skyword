@@ -25,6 +25,7 @@ export default function ServicePage() {
           throw new Error(`Error: ${response.status}`);
         }
         const data = await response.json();
+        console.log("Fetched data:", data); // Debugging log
         setServicebox(data);
         setLoading(false);
       } catch (error) {
@@ -55,8 +56,8 @@ export default function ServicePage() {
       <section>
         <div className="block text-center justify-center gap-x-6 items-center pt-20 py-20">
           <div className=" font-raleway tracking-widest">
-            <h1 className="text-3xl text-blue-700 ">OUR SERVICES</h1>
-            <h2 className="text-lg pt-2   tracking-wide">
+            <h1 className="text-3xl text-blue-700">OUR SERVICES</h1>
+            <h2 className="text-lg pt-2 tracking-wide">
               Travel Services to Simplify Your Journey
             </h2>
           </div>

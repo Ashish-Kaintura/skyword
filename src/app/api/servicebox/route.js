@@ -32,7 +32,7 @@ export const servicebox = [
     id: 4,
     Banner:"/Images/ServicesImage/car rentelbanner.jpg",
     name: "Car-Rentals",
-    Title: "Car-Rentals",
+    Title: "Car Rentals",
     image1: "/Images/ServicesImage/car-rentel.jpg",
     description:
       "Hire mini and economy cars, luxury 4x4s, large people carriers or other vehicles to be dropped off at airports or other collection points. Get insurance and free towing services round the clock. Get carefree rentals from well-known brands and many others for highly affordable prices.",

@@ -15,6 +15,7 @@ import {
 } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Link from "next/link";
+import ServicesDropdown from "./ServicesDropdown";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -152,10 +153,10 @@ export default function Header() {
             </li>
             <li>
               <Link
-                className="text-sm  font-sans hover:border-b-2 border-zinc-400 transition-all ease-in dealy-300"
+                className=""
                 href="/services"
               >
-                Services
+               <ServicesDropdown/>
               </Link>
             </li>
 
