@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
 // components/FAQ.js
-import { useState } from 'react';
+import { useState } from "react";
 
 const FAQ = () => {
   // State to track which accordion is open
@@ -24,16 +24,22 @@ const FAQ = () => {
           {faqItems.map((item, index) => (
             <div
               key={index}
-              className={`accordion border border-solid border-gray-300 p-4 rounded-xl transition duration-500 ${openIndex === index ? 'bg-indigo-50 border-indigo-600' : ''} mb-8 lg:p-4`}
+              className={`accordion border border-solid border-gray-300 p-4 rounded-xl transition duration-500 ${
+                openIndex === index ? "bg-indigo-50 border-indigo-600" : ""
+              } mb-8 lg:p-4`}
             >
               <button
                 onClick={() => toggleAccordion(index)}
-                className={`accordion-toggle group inline-flex items-center justify-between text-left text-lg leading-8 text-gray-900 w-full transition duration-500 hover:text-indigo-600 ${openIndex === index ? 'font-medium text-indigo-600' : ''}`}
+                className={`accordion-toggle group inline-flex items-center justify-between text-left text-lg leading-8 text-gray-900 w-full transition duration-500 hover:text-indigo-600 ${
+                  openIndex === index ? "font-medium text-indigo-600" : ""
+                }`}
                 aria-controls={`collapse-${index}`}
               >
-                <h5 className='font-sans'>{item.question}</h5>
+                <h5 className="font-sans">{item.question}</h5>
                 <svg
-                  className={`w-6 h-6 text-gray-900 transition duration-500 ${openIndex === index ? 'hidden' : 'block'} group-hover:text-indigo-600 origin-center`}
+                  className={`w-6 h-6 text-gray-900 transition duration-500 ${
+                    openIndex === index ? "hidden" : "block"
+                  } group-hover:text-indigo-600 origin-center`}
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +53,9 @@ const FAQ = () => {
                   ></path>
                 </svg>
                 <svg
-                  className={`w-6 h-6 text-gray-900 transition duration-500 ${openIndex === index ? 'block' : 'hidden'} group-hover:text-indigo-600`}
+                  className={`w-6 h-6 text-gray-900 transition duration-500 ${
+                    openIndex === index ? "block" : "hidden"
+                  } group-hover:text-indigo-600`}
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +71,9 @@ const FAQ = () => {
               </button>
               <div
                 id={`collapse-${index}`}
-                className={`accordion-content w-full overflow-hidden pr-4 transition-max-height duration-500 ${openIndex === index ? 'max-h-[250px]' : 'max-h-0'}`}
+                className={`accordion-content w-full overflow-hidden pr-4 transition-max-height duration-500 ${
+                  openIndex === index ? "max-h-[250px]" : "max-h-0"
+                }`}
                 aria-labelledby={`heading-${index}`}
               >
                 <p className="text-base text-gray-900 font-sans leading-6">
@@ -81,21 +91,25 @@ const FAQ = () => {
 // Sample FAQ items (replace these with your actual questions and answers)
 const faqItems = [
   {
-    question: 'What are the benefits of using a corporate travel management service?',
-    answer: 'Streamlined bookings, cost savings, 24/7 support, and compliance monitoring.'
+    question:
+      "What are the benefits of using a corporate travel management service?",
+    answer:
+      "Streamlined bookings, cost savings, 24/7 support, and compliance monitoring.",
   },
   {
-    question: 'How can these services reduce travel costs?',
-    answer: ' Through negotiated rates, expense tracking, and optimized travel itineraries.'
+    question: "How can these services reduce travel costs?",
+    answer:
+      " Through negotiated rates, expense tracking, and optimized travel itineraries.",
   },
   {
-    question: 'What support is available for travelers?',
-    answer: '24/7 assistance for booking changes and travel issues.'
+    question: "What support is available for travelers?",
+    answer: "24/7 assistance for booking changes and travel issues.",
   },
   {
-    question: 'How do services ensure policy compliance?',
-    answer: 'By integrating policy rules into bookings and providing compliance reporting.'
-  }
+    question: "How do services ensure policy compliance?",
+    answer:
+      "By integrating policy rules into bookings and providing compliance reporting.",
+  },
 ];
 
 export default FAQ;

@@ -207,55 +207,30 @@ export default function Header() {
         style={{ top: isScrolled ? 0 : 70 }}
       >
         <div className="flex justify-center">
-          {/* <ul className="pt-16">
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
+          <ul className="pt-16">
+            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
               <Link href="/">Home</Link>
             </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/about-punarnava">About Punarnava</Link>
+            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+              <Link href="/About-skyworldtour">About SkyworldTour</Link>
             </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/destination-wedding">Destination wedding</Link>
+            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+              <Link href="/services">Services</Link>
             </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/meeting-and-events">Meeting and Events</Link>
+            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+              <Link href="/blogs">Blogs</Link>
             </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/Room-suites">Room & suites</Link>
+            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/wellness-and-spa">Wellness and spa</Link>
+            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+              <Link href="/career">Career</Link>
             </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/exclusive-offers">Exclusives offers</Link>
+            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+              <Link href="/contactus">Contact Us</Link>
             </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/parking-transportation">
-                Parking & Transportation{" "}
-              </Link>
-            </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/managing-director">Managing director</Link>
-            </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/activities">Activities</Link>
-            </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/philosophy">Philosophy</Link>
-            </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/facilities">Facilities</Link>
-            </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/dining">Dining </Link>
-            </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/contact-us">Contact us</Link>
-            </li>
-            <li className=" font-sans mt-2 text-white text-xl font-thin hover:text-[#be9343] ">
-              <Link href="/gallery">Gallery</Link>
-            </li>
-          </ul> */}
+          
+          </ul>
           <div>
             <button onClick={toggleMenu} className="cursor-pointer closebtn">
               {isMenuOpen ? (
