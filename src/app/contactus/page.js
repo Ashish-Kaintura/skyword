@@ -47,7 +47,7 @@ export default function page() {
             <div className="flex justify-center py-4">
               <FaPhoneAlt className="size-7 text-blue-700" />
             </div>
-            <p>+918452336465</p>
+            <p>+18452336465</p>
           </div>
           <div className="flex flex-col justify-center text-center">
             <div className="flex justify-center py-4">
@@ -75,7 +75,7 @@ export default function page() {
                 <div className="w-full bg-white rounded-lg shadow border md:mt-0 sm:max-w-md xl:p-0">
                   <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                     <p className="text-xl font-bold leading-tight  text-blue-700 md:text-2xl  uppercase tracking-widest">
-                      Create an account
+                     Get in Touch
                     </p>
 
                     {/* Name Field */}
@@ -105,29 +105,29 @@ export default function page() {
                     </div>
 
                     {/* Phone Number Field */}
-                    <div>
-                      <label className="block mb-2 text-sm font-medium text-gray-900 font-sans">
-                        Your Phone Number
-                      </label>
-                      <input
-                        placeholder="123-456-7890"
-                        className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
-                        id="phone"
-                        type="tel"
-                      />
-                    </div>
+                      <div>
+                        <label className="block mb-2 text-sm font-medium text-gray-900 font-sans">
+                          Your Phone Number
+                        </label>
+                        <input
+                          placeholder="123-456-7890"
+                          className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
+                          id="phone"
+                          type="tel"
+                        />
+                      </div>
 
-                    {/* Message Field */}
-                    <div>
-                      <label className="block mb-2 text-sm font-medium text-gray-900 font-sans">
-                        Your Message
-                      </label>
-                      <textarea
-                        placeholder="Write your message here..."
-                        className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
-                        id="message"
-                        rows="4"
-                      />
+                      {/* Message Field */}
+                      <div>
+                        <label className="block mb-2 text-sm font-medium text-gray-900 font-sans">
+                          Your Message
+                        </label>
+                        <textarea
+                          placeholder="Write your message here..."
+                          className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
+                          id="message"
+                          rows="4"
+                        />
                     </div>
 
                     <button

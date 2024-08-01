@@ -36,15 +36,15 @@ export default function Home() {
             </div>
             <div>
               <p className="sm:w-[600px] font-sans text-sm">
-                <span className="text-4xl"> A</span>t Skyworldtour crop, our passion
-                is helping people experience the wonders of travel. Whether you
-                dream about relaxing on exotic beaches, exploring vibrant cities
-                rich in culture and history, or enjoying outside undertakings in
-                adventures in scenic locales, we can assist you with planning
-                the ideal excursion. As a full-service travel agency based in
-                the United States, we offer flights, hotels, car rentals and
-                more deals across the globe at best costs customized to your
-                budget.
+                <span className="text-4xl"> A</span>t Skyworldtour crop, our
+                passion is helping people experience the wonders of travel.
+                Whether you dream about relaxing on exotic beaches, exploring
+                vibrant cities rich in culture and history, or enjoying outside
+                undertakings in adventures in scenic locales, we can assist you
+                with planning the ideal excursion. As a full-service travel
+                agency based in the United States, we offer flights, hotels, car
+                rentals and more deals across the globe at best costs customized
+                to your budget.
               </p>
             </div>
           </div>
@@ -78,13 +78,13 @@ export default function Home() {
             </p>
             <br />
             <p className="sm:w-[600px] font-sans text-sm mt-2">
-              The purpose of Skyworldtour crop is to help people make their traveling
-              dreams around the world come true. It is our conviction that
-              memorable travel experiences can alter us to the very core and
-              become the basis for a lifetime narrative. Let our team of travel
-              guides help in planning your travel, in order to take you to your
-              dream destination all in style and within your budget. Together,
-              lets start planning your next exciting adventure!
+              The purpose of Skyworldtour crop is to help people make their
+              traveling dreams around the world come true. It is our conviction
+              that memorable travel experiences can alter us to the very core
+              and become the basis for a lifetime narrative. Let our team of
+              travel guides help in planning your travel, in order to take you
+              to your dream destination all in style and within your budget.
+              Together, lets start planning your next exciting adventure!
             </p>
             <div className="flex items-center gap-x-1 text-sm hover:text-blue-700 font-raleway tracking-widest text-blue-700 m-4">
               <Link href="/About-skyworldtour">
@@ -123,6 +123,31 @@ export default function Home() {
       </section>
       <section>
         <SideLink />
+      </section>
+      <section className="flex justify-center p-4" >
+        <form className="text-neutral-800 py-6 relative overflow-hidden flex flex-col justify-around w-[450px]  h-44  rounded-lg p-3 px-6">
+          <div>
+            <span className="font-raleway  text-2xl tracking-wide text-blue-600">
+              Get more updates...
+            </span>
+            <p className="text-neutral-700 font-sans tracking-wide">
+              Sign up for our newsletter and youll be the first to find out
+              about new features
+            </p>
+          </div>
+          <div className="flex gap-1">
+            <div className="relative rounded-lg w-64 overflow-hidden">
+              <input
+                type="text"
+                className="relative bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm rounded-lg focus:ring-violet-500 placeholder-opacity-60 focus:border-violet-500 block w-full p-2.5 checked:bg-emerald-500"
+                placeholder="Mail..."
+              />
+            </div>
+            <button className="bg-blue-600 text-neutral-50 p-2 rounded-lg hover:bg-blue-400">
+              Subscribe
+            </button>
+          </div>
+        </form>
       </section>
       <Footer />
     </>
