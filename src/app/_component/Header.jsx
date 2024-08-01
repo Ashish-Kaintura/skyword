@@ -72,7 +72,7 @@ export default function Header() {
         />
       </Head>
       <nav
-        className={`Nav1 flex sm:justify-between justify-between  mx-auto sm:px-8 px-2 bg-[#F4F4F5] py-4 items-center ${
+        className={`Nav1 flex sm:justify-between justify-between  mx-auto sm:px-8 px-2 bg-[#F4F4F5] py-4 items-center z-10 ${
           isNav1Hidden ? "hidden" : ""
         }`}
         style={{

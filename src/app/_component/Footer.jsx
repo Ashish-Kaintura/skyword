@@ -22,7 +22,7 @@ const Footer = () => {
               47 5th Street, New Hyde Park, NY 11040
             </p>
             <p className="text-[15px] font-semibold text-slate-600">
-              Phone: 8452336465
+              Phone: +1 8452336465
             </p>
             <div className="mt-4  bg-black">
               <iframe
@@ -174,11 +174,11 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <footer>
+      {/* <footer>
         <div className="flex justify-center py-2 font-sans">
           <h2>© Risezonic. All Rights Reserved. Designed by Risezonic.com</h2>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 };

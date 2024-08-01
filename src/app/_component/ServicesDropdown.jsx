@@ -9,7 +9,7 @@ const ServicesDropdown = () => {
           Services
         </span>
       </Link>
-      <ul className="absolute mt-2 w-48 bg-white border border-gray-200 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      <ul className="absolute left-0 mt-0 w-48 bg-white border border-gray-200 shadow-lg hidden group-hover:block">
         <li>
           <Link href="/services/B2B-Corporate-Travel-Management">
             <span className="block px-4 py-2 text-sm hover:bg-gray-100">B2B Corporate Travel</span>
@@ -22,19 +22,19 @@ const ServicesDropdown = () => {
         </li>
         <li>
           <Link href="/services/Car-Rentals">
-            <span className="block px-4 py-2 text-sm hover:bg-gray-100">Car-Rentals</span>
+            <span className="block px-4 py-2 text-sm hover:bg-gray-100">Car Rentals</span>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/services/Online-Resources">
             <span className="block px-4 py-2 text-sm hover:bg-gray-100">Online Resources</span>
           </Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link href="/services/Excursion-Bookings">
             <span className="block px-4 py-2 text-sm hover:bg-gray-100">Excursion Bookings</span>
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/services/Hotel-Reservations">
             <span className="block px-4 py-2 text-sm hover:bg-gray-100">Hotel Reservations</span>

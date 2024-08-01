@@ -37,24 +37,24 @@ export const servicebox = [
     description:
       "Hire mini and economy cars, luxury 4x4s, large people carriers or other vehicles to be dropped off at airports or other collection points. Get insurance and free towing services round the clock. Get carefree rentals from well-known brands and many others for highly affordable prices.",
   },
-  {
-    id: 5,
-    Banner:"/Images/ServicesImage/Excursion Bookings.jpg",
-    name: "Excursion-Bookings",
-    Title: "Excursion Bookings",
-    image1: "/Images/ServicesImage/exbooking.jpg",
-    description:
-      "Discover the regions in their entirety with tailored activity options. Select from a list of recommended tours, performance, leisure activities and attractions. Travel to sights of interest without having to overthink the situation.",
-  },
-  {
-    id: 6,
-    Banner:"/Images/ServicesImage/Online Resources.jpeg",
-    name: "Online-Resources",
-    Title: "Online Resources",
-    image1: "/Images/ServicesImage/Online-booking.jpg",
-    description:
-      "Information about travel guides, destinations, visas, travel warnings and exchange rates can be found on our website. Subscribe to our newsletter to receive special offers and information on new locations to visit. Whether you require a single service or a comprehensive trip, Skyworldtour guarantees exemplary service. Call us today and let us know how we can make your next business or leisure trip hassle-free.",
-  },
+  // {
+  //   id: 5,
+  //   Banner:"/Images/ServicesImage/Excursion Bookings.jpg",
+  //   name: "Excursion-Bookings",
+  //   Title: "Excursion Bookings",
+  //   image1: "/Images/ServicesImage/exbooking.jpg",
+  //   description:
+  //     "Discover the regions in their entirety with tailored activity options. Select from a list of recommended tours, performance, leisure activities and attractions. Travel to sights of interest without having to overthink the situation.",
+  // },
+  // {
+  //   id: 6,
+  //   Banner:"/Images/ServicesImage/Online Resources.jpeg",
+  //   name: "Online-Resources",
+  //   Title: "Online Resources",
+  //   image1: "/Images/ServicesImage/Online-booking.jpg",
+  //   description:
+  //     "Information about travel guides, destinations, visas, travel warnings and exchange rates can be found on our website. Subscribe to our newsletter to receive special offers and information on new locations to visit. Whether you require a single service or a comprehensive trip, Skyworldtour guarantees exemplary service. Call us today and let us know how we can make your next business or leisure trip hassle-free.",
+  // },
 ];
 
 export async function GET(req) {
