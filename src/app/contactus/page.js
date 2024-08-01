@@ -19,7 +19,7 @@ export default function page() {
           </p>
 
           <p className="text-center font-sans  text-sm">
-            At Skyworldtour crop, our passion is helping people experience the
+            At Skyworldtour corp, our passion is helping people experience the
             wonders of travel. Whether you dream about relaxing on exotic
             beaches, exploring vibrant cities rich in culture and history, or
             enjoying outside undertakings in adventures in scenic locales, we

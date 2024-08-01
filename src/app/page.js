@@ -32,7 +32,7 @@ export default function Home() {
           <div className="sm:flex sm:justify-around justify-center gap-x-6 items-center">
             <div className=" font-raleway tracking-widest">
               <h1 className="text-3xl text-blue-700 ">
-                Welcome to Skyworldtour Crop
+                Welcome to Skyworldtour corp
               </h1>
               <h2 className="text-lg pt-2   tracking-wide">
                 Your Global Travel Companion
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
             <div>
               <p className="sm:w-[600px] font-sans text-sm">
-                <span className="text-4xl"> A</span>t Skyworldtour crop, our
+                <span className="text-4xl"> A</span>t Skyworldtour corp, our
                 passion is helping people experience the wonders of travel.
                 Whether you dream about relaxing on exotic beaches, exploring
                 vibrant cities rich in culture and history, or enjoying outside
@@ -72,7 +72,7 @@ export default function Home() {
           <div className=" font-raleway ">
             <h2 className="text-lg  tracking-wide">Why Choose</h2>
             <h2 className="text-4xl mt-1 text-blue-700 tracking-wide">
-              Skyworldtour Crop
+              Skyworldtour corp
             </h2>
             <p className="sm:w-[600px] font-sans text-sm mt-2">
               <span className="text-2xl"> W</span>ith our company as your
@@ -87,7 +87,7 @@ export default function Home() {
             </p>
             <br />
             <p className="sm:w-[600px] font-sans text-sm mt-2">
-              The purpose of Skyworldtour crop is to help people make their
+              The purpose of Skyworldtour corp is to help people make their
               traveling dreams around the world come true. It is our conviction
               that memorable travel experiences can alter us to the very core
               and become the basis for a lifetime narrative. Let our team of
