@@ -14,9 +14,18 @@ import Testimonials from "./_component/Testimonials";
 import SideLink from "./_component/SideLink";
 import PopupForm from "./_component/PopupForm";
 export default function Home() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPopup(true);
+    }, 10000); // 10 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <>
-      <Header />
+      <Header setShowPopup={setShowPopup} />
       <HomeBanner />
       <section>
         <div className=" px-2 pb-20 sm:py-20">
@@ -119,7 +128,7 @@ export default function Home() {
         <FAQ />
       </section>
       <section>
-        <PopupForm />
+        <PopupForm showPopup={showPopup} setShowPopup={setShowPopup} />
       </section>
       <section>
         <SideLink />

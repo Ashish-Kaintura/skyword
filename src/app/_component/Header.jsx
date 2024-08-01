@@ -17,7 +17,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import Link from "next/link";
 import ServicesDropdown from "./ServicesDropdown";
 
-export default function Header() {
+export default function Header({ setShowPopup }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -91,7 +91,7 @@ export default function Header() {
                 </div>
                 <div className="flex items-center">
                   <FaPhoneAlt className="  sm:size-5 size-4 mr-2" />
-                  <Link href="">8452336465</Link>
+                  <Link href="">+1 8452336465</Link>
                 </div>
               </div>
             </ul>
@@ -99,7 +99,7 @@ export default function Header() {
         </div>
 
         <div className="flex gap-x-2 items-center text-black">
-          <div className="flex items-center gap-x-4">
+          {/* <div className="flex items-center gap-x-4">
             <Link href="/">
               <FaFacebook className="sm:size-7 size-4 text-blue-800" />
             </Link>
@@ -112,7 +112,13 @@ export default function Header() {
             <Link href="/">
               <FaYoutube className="sm:size-7 size-4 text-red-700" />
             </Link>
-          </div>
+          </div> */}
+          <button
+            className="px-4 py-2 rounded-lg bg-blue-700 hover:bg-blue-600 text-white text-sm font-sans"
+            onClick={() => setShowPopup(true)}
+          >
+            Book Now
+          </button>
         </div>
       </nav>
 
@@ -123,13 +129,8 @@ export default function Header() {
       >
         <div className="">
           <div className="w-[140px]  overflow-hidden">
-            <Link href="/" >
-          
-              <Image
-                className="w-full h-full "
-                alt="logo"
-                src={Logo}
-              ></Image>
+            <Link href="/">
+              <Image className="w-full h-full " alt="logo" src={Logo}></Image>
             </Link>
           </div>
         </div>
@@ -152,11 +153,8 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link
-                className=""
-                href="/services"
-              >
-               <ServicesDropdown/>
+              <Link className="" href="/services">
+                <ServicesDropdown />
               </Link>
             </li>
 
@@ -229,7 +227,6 @@ export default function Header() {
             <li className=" font-sans mt-3 text-black text-2xl font-semibold hover:text-[#be9343] ">
               <Link href="/contactus">Contact Us</Link>
             </li>
-          
           </ul>
           <div>
             <button onClick={toggleMenu} className="cursor-pointer closebtn">

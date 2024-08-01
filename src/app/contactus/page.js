@@ -75,38 +75,39 @@ export default function page() {
                 <div className="w-full bg-white rounded-lg shadow border md:mt-0 sm:max-w-md xl:p-0">
                   <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                     <p className="text-xl font-bold leading-tight  text-blue-700 md:text-2xl  uppercase tracking-widest">
-                     Get in Touch
+                      Get in Touch
                     </p>
-
-                    {/* Name Field */}
-                    <div>
-                      <label className="block mb-2 text-sm font-medium text-gray-900 font-sans">
-                        Your Name
-                      </label>
-                      <input
-                        placeholder="John Doe"
-                        className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
-                        id="username"
-                        type="text"
-                      />
-                    </div>
-
-                    {/* Email Field */}
-                    <div>
-                      <label className="block mb-2 text-sm font-medium text-gray-900 font-sans">
-                        Your Email
-                      </label>
-                      <input
-                        placeholder="example@example.com"
-                        className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
-                        id="email"
-                        type="email"
-                      />
-                    </div>
-
-                    {/* Phone Number Field */}
+                    <div className="flex justify-between gap-x-4">
+                      {/* Name Field */}
                       <div>
-                        <label className="block mb-2 text-sm font-medium text-gray-900 font-sans">
+                        <label className="block mb-2 text-sm font-medium text-gray-600 font-sans">
+                          Your Name
+                        </label>
+                        <input
+                          placeholder="John Doe"
+                          className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
+                          id="username"
+                          type="text"
+                        />
+                      </div>
+
+                      {/* Email Field */}
+                      <div>
+                        <label className="block mb-2 text-sm font-medium text-gray-600 font-sans">
+                          Your Email
+                        </label>
+                        <input
+                          placeholder="example@example.com"
+                          className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
+                          id="email"
+                          type="email"
+                        />
+                      </div>
+                    </div>
+                    <div className="flex justify-between gap-x-4">
+                      {/* Phone Number Field */}
+                      <div>
+                        <label className="block mb-2 text-sm font-medium text-gray-600 font-sans">
                           Your Phone Number
                         </label>
                         <input
@@ -116,18 +117,30 @@ export default function page() {
                           type="tel"
                         />
                       </div>
-
-                      {/* Message Field */}
+                      {/* company Name*/}
                       <div>
-                        <label className="block mb-2 text-sm font-medium text-gray-900 font-sans">
-                          Your Message
+                        <label className="block mb-2 text-sm font-medium text-gray-600 font-sans">
+                          Your Company Name
                         </label>
-                        <textarea
-                          placeholder="Write your message here..."
+                        <input
+                          placeholder="ZYX ltd"
                           className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
-                          id="message"
-                          rows="4"
+                          id="company Name"
+                          type="text"
                         />
+                      </div>
+                    </div>
+                    {/* Message Field */}
+                    <div>
+                      <label className="block mb-2 text-sm font-medium text-gray-600 font-sans">
+                        Your Message
+                      </label>
+                      <textarea
+                        placeholder="Write your message here..."
+                        className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
+                        id="message"
+                        rows="4"
+                      />
                     </div>
 
                     <button
