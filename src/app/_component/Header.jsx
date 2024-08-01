@@ -208,25 +208,25 @@ export default function Header() {
       >
         <div className="flex justify-center">
           <ul className="pt-16">
-            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+            <li className=" font-sans mt-3 text-black text-2xl font-semibold hover:text-[#be9343] ">
               <Link href="/">Home</Link>
             </li>
-            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+            <li className=" font-sans mt-3 text-black text-2xl font-semibold hover:text-[#be9343] ">
               <Link href="/About-skyworldtour">About SkyworldTour</Link>
             </li>
-            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+            <li className=" font-sans mt-3 text-black text-2xl font-semibold hover:text-[#be9343] ">
               <Link href="/services">Services</Link>
             </li>
-            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+            <li className=" font-sans mt-3 text-black text-2xl font-semibold hover:text-[#be9343] ">
               <Link href="/blogs">Blogs</Link>
             </li>
-            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+            <li className=" font-sans mt-3 text-black text-2xl font-semibold hover:text-[#be9343] ">
               <Link href="/privacy-policy">Privacy Policy</Link>
             </li>
-            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+            <li className=" font-sans mt-3 text-black text-2xl font-semibold hover:text-[#be9343] ">
               <Link href="/career">Career</Link>
             </li>
-            <li className=" font-sans mt-2 text-black text-xl font-thin hover:text-[#be9343] ">
+            <li className=" font-sans mt-3 text-black text-2xl font-semibold hover:text-[#be9343] ">
               <Link href="/contactus">Contact Us</Link>
             </li>
           
