@@ -116,7 +116,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white ">
         <div className="flex justify-center">
           <h3 className="text-center pt-12 font-raleway tracking-widest uppercase pb-4 border-b-2 border-gray-400 text-blue-700 text-3xl">
             Testimonials

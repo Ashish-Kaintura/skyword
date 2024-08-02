@@ -37,7 +37,7 @@ export default function Testimonials() {
           {/* <h1 className="sm:text-6xl text-3xl uppercase font-bold text-center pt-12">
             Testimonials
           </h1> */}
-          <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6 b">
+          <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6 ">
             <figure className="max-w-screen-md mx-auto">
               <svg
                 className="sm:h-12 h-8 mx-auto mb-3 text-gray-400 dark:text-gray-600"
