@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
 
         <div className="sm:hidden flex flex-col justify-center pb-5">
-          <div className="font-sans flex flex-col text-xl gap-2">
+          <div className="font-sans flex flex-col justify-center text-xl gap-2 ">
             <h1 className="font-semibold font-sans mb-2">Quick Links</h1>
             <Link href="/" className="text-[15px] font-semibold text-slate-600">
               Home

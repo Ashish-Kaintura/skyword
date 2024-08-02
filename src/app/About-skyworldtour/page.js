@@ -12,7 +12,7 @@ const Page = () => {
   return (
     <>
       <Header />
-      <div className="  text-gray-900 pt-20">
+      <div className="  text-gray-900 pt-28">
         <div className="flex justify-center">
           <Image className="w-full sm:h-600" src={Banner}></Image>
         </div>

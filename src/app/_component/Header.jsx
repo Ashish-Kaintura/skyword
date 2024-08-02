@@ -114,7 +114,7 @@ export default function Header({ setShowPopup }) {
             </Link>
           </div> */}
           <button
-            className="sm:px-4 p-1 sm:py-2 rounded-lg bg-blue-700 hover:bg-blue-600 text-white sm:text-sm text-xs font-sans"
+            className="sm:px-4 p-2 sm:py-2 rounded-lg bg-blue-700 hover:bg-blue-600 text-white sm:text-sm text-xs font-sans"
             onClick={() => setShowPopup(true)}
           >
             Book Now
