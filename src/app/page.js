@@ -45,15 +45,15 @@ export default function Home() {
             </div>
             <div>
               <p className="sm:w-[600px] font-sans text-sm">
-                <span className="text-4xl"> A</span>t Skyworldtour corp, our
+                <span className="text-4xl"> A</span>t Skyworldtour Corp, our
                 passion is helping people experience the wonders of travel.
                 Whether you dream about relaxing on exotic beaches, exploring
                 vibrant cities rich in culture and history, or enjoying outside
                 undertakings in adventures in scenic locales, we can assist you
                 with planning the ideal excursion. As a full-service travel
                 agency based in the United States, we offer flights, hotels, car
-                rentals and more deals across the globe at best costs customized
-                to your budget.
+                rentals, and more deals across the globe at the best costs
+                customized to your budget. mized to your budget.
               </p>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function Home() {
       <section>
         <div className="flex justify-center py-4">
           <h2 className="text-3xl font-raleway tracking-widest text-center pb-2 text-blue-700 border-b-2 uppercase">
-            Wha we Provide
+            What we Provide
           </h2>
         </div>
         <ServicesCard />
@@ -77,23 +77,23 @@ export default function Home() {
             <p className="sm:w-[600px] font-sans text-sm mt-2">
               <span className="text-2xl"> W</span>ith our company as your
               full-service travel agency, guests are assured of a stress-free
-              travel planning process that is founded on our expertise. The
-              appeal of cheap prices, professional performances, and good
-              attitude towards customers has led to hundreds of positive
-              reviews. Customers enjoy our friendly approach and quick response
-              to all their inquiries. If you need a free, no obligation quote on
-              your next vacation, feel free to get one of our representatives on
-              the phone now.
+              travel planning process founded on our expertise. The appeal of
+              cheap prices, professional performances, and a good attitude
+              towards customers has led to hundreds of positive reviews.
+              Customers enjoy our friendly approach and quick response to all
+              their inquiries. If you need a free, no-obligation quote on your
+              next vacation, please get one of our representatives on the phone
+              now.
             </p>
             <br />
             <p className="sm:w-[600px] font-sans text-sm mt-2">
-              The purpose of Skyworldtour corp is to help people make their
-              traveling dreams around the world come true. It is our conviction
-              that memorable travel experiences can alter us to the very core
-              and become the basis for a lifetime narrative. Let our team of
-              travel guides help in planning your travel, in order to take you
-              to your dream destination all in style and within your budget.
-              Together, lets start planning your next exciting adventure!
+              The purpose of Skyworldtour Corp is to help people make their
+              traveling dreams around the world come true. We are convinced that
+              memorable travel experiences can alter us to the core and become
+              the basis for a lifetime narrative. Let our team of travel guides
+              help plan your travel to take you to your dream destination in
+              style and within your budget. Together, lets start planning your
+              next exciting adventure!
             </p>
             <div className="flex items-center gap-x-1 text-sm hover:text-blue-700 font-raleway tracking-widest text-blue-700 m-4">
               <Link href="/About-skyworldtour">
@@ -133,7 +133,7 @@ export default function Home() {
       <section>
         <SideLink />
       </section>
-      <section className="flex justify-center p-4" >
+      <section className="flex justify-center p-4">
         <form className="text-neutral-800 py-6 relative overflow-hidden flex flex-col justify-around w-[450px]  h-44  rounded-lg p-3 px-6">
           <div>
             <span className="font-raleway  text-2xl tracking-wide text-blue-600">

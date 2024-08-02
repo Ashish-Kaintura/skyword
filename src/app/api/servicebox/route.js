@@ -3,39 +3,39 @@
 export const servicebox = [
   {
     id: 1,
-    Banner:"/Images/ServicesImage/b2b.jpg",
+    Banner: "/Images/ServicesImage/b2b.jpg",
     name: "B2B-Corporate-Travel-Management",
     Title: "B2B Corporate Travel Management",
     image1: "/Images/ServicesImage/b2b-soltion.jpg",
     description:
-      "Being a business to business provider, we provide corporate travel solutions. Oversee all aspects of business trip spending including billing consolidation, approvals, bookings, and reporting. Supply other travel companies in the chain with awesome B2B travel packages at the most affordable prices and cost possible.",
+      "Being a business-to-business provider, we provide corporate travel solutions. Oversee all aspects of business trip spending, including billing consolidation, approvals, bookings, and reporting. Supply other travel companies in the chain with awesome B2B travel packages at the most affordable prices and costs possible.",
   },
   {
     id: 2,
-    Banner:"/Images/ServicesImage/flight bookingBanneer.jpg",
+    Banner: "/Images/ServicesImage/flight bookingBanneer.jpg",
     name: "Flight-Bookings",
     Title: "Flight Bookings",
     image1: "/Images/ServicesImage/flight-booking.jpg",
     description:
-      "We compare and sift through hundreds of airlines to ensure that we give you the cheapest flights to your chosen destination. There is an opportunity to view schedules, availability and ticket prices to choose flights that are convenient in terms of dates and cost. After booking, you will be issued with e-tickets and you will be helped to change or cancel your booked tickets.",
+      "We compare and sift through hundreds of airlines to ensure we give you the cheapest flights to your chosen destination. There is an opportunity to view schedules, availability and ticket prices to select convenient flights regarding dates and cost. After booking, you will be issued e-tickets and helped to change or cancel your booked tickets.",
   },
   {
     id: 3,
-    Banner:"/Images/ServicesImage/hotel reservation banner.png",
+    Banner: "/Images/ServicesImage/hotel reservation banner.png",
     name: "Hotel-Reservations",
     Title: "Hotel Reservations",
     image1: "/Images/ServicesImage/hotel-reservation.png",
     description:
-      "Use the links provided below to view our large range of hotels in various destinations worldwide. You can check and compare the ratings, amenities, pictures, and real customers’ reviews to choose a suitable place to stay. We provide offers and promotions for different hotel classes starting from economical to the luxurious ones.",
+      "Use the links provided below to view our large range of hotels in various destinations worldwide. You can compare the ratings, amenities, pictures, and real customers’ reviews to choose a suitable place to stay. We provide offers and promotions for different hotel classes, from economical to luxurious ones.",
   },
   {
     id: 4,
-    Banner:"/Images/ServicesImage/car rentelbanner.jpg",
+    Banner: "/Images/ServicesImage/car rentelbanner.jpg",
     name: "Car-Rentals",
     Title: "Car Rentals",
     image1: "/Images/ServicesImage/car-rentel.jpg",
     description:
-      "Hire mini and economy cars, luxury 4x4s, large people carriers or other vehicles to be dropped off at airports or other collection points. Get insurance and free towing services round the clock. Get carefree rentals from well-known brands and many others for highly affordable prices.",
+      "Hire mini and economy cars, luxury 4x4s, large people carriers, or other vehicles to be dropped off at airports or other collection points. Get insurance and free towing services around the clock. Get carefree rentals from well-known brands and many others for highly affordable prices.",
   },
   // {
   //   id: 5,

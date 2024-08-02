@@ -13,9 +13,8 @@ const Page = () => {
     <>
       <Header />
       <div className="  text-gray-900 pt-20">
-        <div  className="flex justify-center" >
-          <Image
-          className="w-full sm:h-600" src={Banner}></Image>
+        <div className="flex justify-center">
+          <Image className="w-full sm:h-600" src={Banner}></Image>
         </div>
 
         <div className="container mx-auto px-6 py-12">
@@ -44,8 +43,8 @@ const Page = () => {
                   unforgettable travel experiences begins. Founded with a
                   passion for exploration and a commitment to excellence, we are
                   dedicated to providing exceptional travel services that cater
-                  to every type of traveler. Whether youre seeking adventure,
-                  relaxation, culture, or luxury, were here to turn your travel
+                  to every type of traveler. Whether you seek adventure,
+                  relaxation, culture, or luxury, we re here to turn your travel
                   dreams into reality.
                 </p>
               </div>
@@ -59,11 +58,11 @@ const Page = () => {
               </h2>
               <p className="font-sans text-normal text-center">
                 Our mission is to inspire and empower people to explore the
-                world. We believe that travel enriches lives by broadening
-                perspectives and creating lifelong memories. With this belief at
-                our core, we strive to offer personalized travel experiences
-                that exceed expectations, providing seamless and enjoyable
-                journeys from start to finish.
+                world. Travel enriches lives by broadening perspectives and
+                creating lifelong memories. With this belief at our core, we
+                strive to offer personalized travel experiences that exceed
+                expectations, providing seamless and enjoyable journeys from
+                start to finish.
               </p>
             </div>
           </section>
@@ -77,9 +76,9 @@ const Page = () => {
               to share that passion with others. Our founders, seasoned
               travelers themselves, saw the need for a travel service that
               combines expertise, personalized service, and unbeatable value.
-              From our humble beginnings, weve grown into a trusted name in the
+              From our humble beginnings, we ve grown into a trusted name in the
               travel industry, helping thousands of travelers discover the
-              worlds beauty and wonder.
+              beauty and wonder of the world.
             </p>
           </section>
 
@@ -95,7 +94,7 @@ const Page = () => {
                 Corp shares a common goal: to make your travel experience
                 exceptional. We take pride in our personalized approach, working
                 closely with each customer to create journeys that are as unique
-                as they are memorable.
+                and memorable.
               </p>
             </div>
           </section>
@@ -105,9 +104,9 @@ const Page = () => {
               Join Our Community
             </h2>
             <p className="text-normal font-sans mb-4 ">
-              Become part of our travel community and connect with fellow
+              Please become part of our travel community and connect with fellow
               adventurers. Subscribe to our newsletter for the latest travel
-              deals, tips, and stories. Follow us on{" "}
+              deals, tips, and stories.
               <Link
                 href="https://facebook.com"
                 className="text-blue-500 hover:underline"
