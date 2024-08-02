@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState } from "react";
@@ -72,28 +73,27 @@ export default function ServicePage() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center sm:pt-12 py-12 gap-12 lg:mx-8 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 sm:justify-items-center justify-center sm:pt-12 py-12 gap-12 lg:mx-8 lg:px-12 p-4">
           {loading ? (
             <p>Loading...</p>
           ) : error ? (
             <p>{error}</p>
           ) : (
             servicebox.map((item) => (
-              <div key={item.name} className="border-2 p-4">
-                <div className="lg:w-[450px] w-[420px] h-72 overflow-hidden flex justify-center">
-                  <Image
+              <div key={item.name} className="border-2 sm::w-[450px]">
+                <div className="sm:w-[450px] sm:h-72 overflow-hidden flex justify-center">
+                  <img
                     alt={item.title}
                     className="w-full h-full object-cover"
                     src={item.image1}
-                    width={420}
-                    height={288}
+                  
                   />
                 </div>
                 <div className="p-4">
                   <h2 className="text-blue-700 font-raleway tracking-widest py-2 text-sm">
                     {item.Title}
                   </h2>
-                  <p className="w-96 text-xs font-sans font-semibold line-clamp-6 sm:h-20 overflow-hidden">
+                  <p className="sm:w-96 text-xs font-sans font-semibold line-clamp-6">
                     {item.description}
                   </p>
                   <div className="flex items-center gap-x-1 text-sm hover:text-blue-700 font-raleway tracking-widest text-blue-700 mt-4">

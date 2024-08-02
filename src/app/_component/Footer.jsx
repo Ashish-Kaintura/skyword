@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <footer className="sm:py-14 py-12 bg-[#f2f2f2] w-full sm:flex flex-wrap sm:justify-around justify-center sm:gap-32 shadow-inner">
+      <footer className="sm:py-14 py-12 bg-[#f2f2f2] w-full sm:flex block sm:justify-around justify-center sm:gap-32 shadow-inner">
         <div className="flex justify-center gap-8 sm:gap-32">
           <div className="font-sans block text-xl gap-2 justify-center sm:text-left text-center mb-4 sm:mb-0">
             <h1 className="font-semibold font-sans mb-2">Address</h1>
@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
 
         <div className="sm:hidden flex flex-col justify-center pb-5">
-          <div className="font-sans flex flex-col justify-center text-xl gap-2 ">
+          <div className="font-sans flex flex-col justify-center text-center text-xl gap-2 ">
             <h1 className="font-semibold font-sans mb-2">Quick Links</h1>
             <Link href="/" className="text-[15px] font-semibold text-slate-600">
               Home

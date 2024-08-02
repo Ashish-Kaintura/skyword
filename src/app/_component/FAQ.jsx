@@ -13,7 +13,7 @@ const FAQ = () => {
   };
 
   return (
-    <section className="py-24">
+    <section className="sm:py-24 py-4">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
           <h2 className="text-2xl font-manrope text-center font-raleway text-blue-700 leading-[3.25rem]">

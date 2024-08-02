@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
 "use client"; // Add this at the top of your file
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Modal from './Modal'; // Import the Modal component
+import Modal from "./Modal"; // Import the Modal component
 
 export default function ServicesCard() {
   const [servicecard, setServicecard] = useState([]);
@@ -49,7 +50,7 @@ export default function ServicesCard() {
 
   return (
     <div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center sm:pt-12 py-12 gap-12 lg:mx-8 lg:px-12 px-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 sm:justify-items-center justify-center sm:pt-12 py-12 gap-12 lg:mx-8 lg:px-12 px-4">
         {loading ? (
           <p>Loading...</p>
         ) : error ? (
@@ -57,21 +58,19 @@ export default function ServicesCard() {
         ) : (
           servicecard.map((item) => (
             <div key={item.name}>
-              <div className="border-2">
-                <div className="lg:w-[450px]  h-72 overflow-hidden flex justify-center">
-                  <Image
+              <div className="border-2 sm:w-[450px] ">
+                <div className="sm:w-[450px] sm:h-72 overflow-hidden flex justify-center">
+                  <img
                     alt="skyworldtour"
                     className="w-full h-full object-cover"
                     src={item.image1}
-                    width={420} // Adjust width as needed
-                    height={288} // Adjust height as needed
                   />
                 </div>
                 <div className="p-4">
                   <h2 className="text-blue-700 font-raleway tracking-widest py-2 text-sm">
                     {item.name}
                   </h2>
-                  <p className="w-96 text-xs font-sans font-semibold line-clamp-6">
+                  <p className="sm:w-96 text-xs font-sans font-semibold line-clamp-6">
                     {item.description}
                   </p>
                   <div className="flex items-center gap-x-1 text-sm hover:text-blue-700 font-raleway tracking-widest text-blue-700 mt-4">
@@ -88,7 +87,9 @@ export default function ServicesCard() {
           ))
         )}
       </div>
-      {showModal && <Modal show={showModal} onClose={handleCloseModal} item={modalData} />}
+      {showModal && (
+        <Modal show={showModal} onClose={handleCloseModal} item={modalData} />
+      )}
     </div>
   );
 }

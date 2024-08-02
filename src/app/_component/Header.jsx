@@ -98,7 +98,7 @@ export default function Header({ setShowPopup }) {
           </div>
         </div>
 
-        <div className="flex gap-x-2 items-center text-black">
+        <div className="md:flex hidden gap-x-2 items-center text-black">
           {/* <div className="flex items-center gap-x-4">
             <Link href="/">
               <FaFacebook className="sm:size-7 size-4 text-blue-800" />
@@ -114,7 +114,7 @@ export default function Header({ setShowPopup }) {
             </Link>
           </div> */}
           <button
-            className="sm:px-4 p-2 sm:py-2 rounded-lg bg-blue-700 hover:bg-blue-600 text-white sm:text-sm text-xs font-sans"
+            className="px-4 py-2 rounded-lg bg-blue-700 hover:bg-blue-600 text-white sm:text-sm text-xs font-sans"
             onClick={() => setShowPopup(true)}
           >
             Book Now
