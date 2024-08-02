@@ -28,8 +28,8 @@ export default function Home() {
       <Header setShowPopup={setShowPopup} />
       <HomeBanner />
       <section>
-        <div className=" px-2 pb-20 sm:py-20">
-          <div className="sm:flex sm:justify-around justify-center gap-x-6 items-center">
+        <div className=" px-2 pb-20 sm:py-20 py-8">
+          <div className="lg:flex lg:justify-around justify-center gap-x-6 items-center">
             <div className=" font-raleway tracking-widest">
               <h1 className="text-3xl text-blue-700 ">
                 Welcome to Skyworldtour corp
@@ -38,7 +38,7 @@ export default function Home() {
                 Your Global Travel Companion
               </h2>
               <Link href="/About-skyworldtour">
-                <button className="px-4 py-2  border-2  bg-blue-600 mt-4 rounded-lg text-white font-sans text-sm">
+                <button className="px-4 py-2 lg:mb-0 mb-4  border-2  bg-blue-600 mt-4 rounded-lg text-white font-sans text-sm">
                   More Info
                 </button>
               </Link>

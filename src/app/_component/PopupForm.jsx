@@ -121,7 +121,7 @@ const PopupForm = ({ showPopup, setShowPopup }) => {
   if (!showPopup) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-[20]">
+    <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-[20] sm:p-0 p-5">
       <div className="bg-white p-6 rounded-lg shadow-lg">
         <div className="flex justify-end">
           <TiTimes

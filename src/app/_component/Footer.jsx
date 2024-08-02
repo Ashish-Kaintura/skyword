@@ -24,7 +24,7 @@ const Footer = () => {
             <p className="text-[15px] font-semibold text-slate-600">
               Phone: +1 8452336465
             </p>
-            <div className="mt-4  bg-black">
+            <div className="mt-4">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.4255446950233!2d-73.6947364150042!3d40.730660897624105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c262f28f669d73%3A0xdfc658572446d900!2s47%20S%205th%20St%2C%20New%20Hyde%20Park%2C%20NY%2011040%2C%20USA!5e0!3m2!1sen!2sin!4v1721906465741!5m2!1sen!2sin"
                 width="270"

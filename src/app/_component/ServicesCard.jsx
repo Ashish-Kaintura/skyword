@@ -49,7 +49,7 @@ export default function ServicesCard() {
 
   return (
     <div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center sm:pt-12 py-12 gap-12 lg:mx-8 lg:px-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center sm:pt-12 py-12 gap-12 lg:mx-8 lg:px-12 px-4">
         {loading ? (
           <p>Loading...</p>
         ) : error ? (
@@ -58,7 +58,7 @@ export default function ServicesCard() {
           servicecard.map((item) => (
             <div key={item.name}>
               <div className="border-2">
-                <div className="lg:w-[450px] w-[420px] h-72 overflow-hidden flex justify-center">
+                <div className="lg:w-[450px]  h-72 overflow-hidden flex justify-center">
                   <Image
                     alt="skyworldtour"
                     className="w-full h-full object-cover"
