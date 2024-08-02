@@ -51,7 +51,7 @@ export default function Testimonials() {
                 />
               </svg>
               <blockquote>
-                <p className="sm:text-normal font-sans text-normal text-gray-900 dark:text-white">
+                <p className="sm:text-normal font-sans text-normal text-gray-900 ">
                   Skyworld Tour Travel Agency is the agency of my trust for all
                   my travel requirements, both domestic and international. Their
                   team is full of professional knowledge, always works fast and
@@ -95,7 +95,7 @@ export default function Testimonials() {
                 />
               </svg>
               <blockquote>
-                <p className="sm:text-normal font-sans text-normal text-gray-900 dark:text-white">
+                <p className="sm:text-normal font-sans text-normal text-gray-900 ">
                   “I made bookings for our family trip to the USA easy when I
                   met Skyworld Tour Travel Agency and I cannot thank them
                   enough.” I and my wife Priya can never thank them enough
@@ -140,7 +140,7 @@ export default function Testimonials() {
                 />
               </svg>
               <blockquote>
-                <p className="sm:text-normal font-sans text-normal text-gray-900 dark:text-white">
+                <p className="sm:text-normal font-sans text-normal text-gray-900 ">
                   Skyworld Tour is my go-to online travel agency for all
                   domestic flight bookings in India during my frequent business
                   travel from Sydney, Australia. Their efforts to hunt for the
