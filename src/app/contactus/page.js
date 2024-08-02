@@ -15,18 +15,18 @@ export default function page() {
         <div className="sm:mx-12 sm-px-12">
           <p className=" text-center font-sans pt-8  pb-1 text-sm">
             Feel free to send us your queries regarding service. Complaints are
-            welcome as well, we take them as a note for improvement.
+            also welcome; we take them as a note for improvement.
           </p>
 
           <p className="text-center font-sans  text-sm">
-            At Skyworldtour corp, our passion is helping people experience the
+            At Skyworldtour Corp, our passion is helping people experience the
             wonders of travel. Whether you dream about relaxing on exotic
             beaches, exploring vibrant cities rich in culture and history, or
             enjoying outside undertakings in adventures in scenic locales, we
             can assist you with planning the ideal excursion. As a full-service
             travel agency based in the United States, we offer flights, hotels,
-            car rentals and more deals across the globe at best costs customized
-            to your budget.
+            car rentals, and more deals across the globe at the best costs
+            customized to your budget.
           </p>
         </div>
       </div>
