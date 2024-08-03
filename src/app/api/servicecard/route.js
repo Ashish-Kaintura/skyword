@@ -4,7 +4,7 @@ export const servicecard = [
     title: "Budget-Friendly-Travel-Made-Easy",
     image1: "/Images/HomeImage/service1.jpg",
     description:
-      "Experience unparalleled luxury in our Punarnava King Room, a 387-square-foot sanctuary with mesmerizing mountain views. Revel in the comfort of a king bed, a spacious wardrobe, and a groom and prep zone. Indulge in the three-fixture bathroom with luxury bath amenities. Stay connected with high-speed wireless internet and savor the breathtaking views that complement the elegance of your surroundings. See the World of Punarnava program terms for upgrade eligibility.",
+      "Planning an affordable vacation can seem challenging but we're here to help make travels fit seamlessly within your budget. Our team consists of professional travel consultants who understand costs incurred and thus strive to get the best package and product deals. Benefiting from a high level of partnerships with airlines, hotels and car rental companies, we can organize attractive promotions and negotiate with suppliers about more favorable rates, which makes our offers profitable for you.",
   },
   {
     name: "Easy-Appointments-and-Support-for-Clients",
