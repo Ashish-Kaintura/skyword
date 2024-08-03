@@ -3,7 +3,7 @@ import React from "react";
 import Head from "next/head";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Logo from "/public/Images/logo/Skyworldtour logo.png";
+import Logo from "/public/Images/logo/logo.png";
 import { TiThMenu, TiTimes } from "react-icons/ti";
 import { IoMail } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -128,9 +128,9 @@ export default function Header({ setShowPopup }) {
         }`}
       >
         <div className="">
-          <div className="w-[140px]  overflow-hidden">
+          <div className="w-[200px]  overflow-hidden">
             <Link href="/">
-              <Image className="w-full h-full " alt="logo" src={Logo}></Image>
+              <Image className="w-full h-full object-fill " alt="logo" src={Logo}></Image>
             </Link>
           </div>
         </div>

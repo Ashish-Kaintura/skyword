@@ -72,7 +72,7 @@ export default function Home() {
           <div className=" font-raleway ">
             <h2 className="text-lg  tracking-wide">Why Choose</h2>
             <h2 className="text-4xl mt-1 text-blue-700 tracking-wide">
-              Skyworldtour corp
+              Skyworldtour Corp
             </h2>
             <p className="sm:w-[600px] font-sans text-sm mt-2">
               <span className="text-2xl"> W</span>ith our company as your
