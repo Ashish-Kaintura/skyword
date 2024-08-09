@@ -4,9 +4,9 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Skyworldtour Crop travel",
+  title: "Skyworldtour Corp travel",
   description:
-    "Skyworldtour crop, our passion is helping people experience the wonders of travel",
+    "Skyworldtour corpp, our passion is helping people experience the wonders of travel",
 };
 
 export default function RootLayout({ children }) {
