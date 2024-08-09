@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Skyworldtour Corp travel",
   description:
-    "Skyworldtour corpp, our passion is helping people experience the wonders of travel",
+    "Skyworld Tour Corp travel is best deals on Domestic & International tour packages, Flights",
 };
 
 export default function RootLayout({ children }) {
