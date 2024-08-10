@@ -4,7 +4,7 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Skyworldtour Corp Travel",
+  title: "SkyworldTour Corp Travel",
   description:
     "Skyworld Tour Corp travel is best deals on Domestic & International tour packages, Flights",
 };
