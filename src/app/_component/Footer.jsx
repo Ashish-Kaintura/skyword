@@ -134,7 +134,7 @@ const Footer = () => {
               <ul className="flex gap-4">
                 <li>
                   <Link
-                    href="https://www.facebook.com/risezonictravel/?mibextid=ZbWKwL"
+                    href=""
                     className="text-slate-600"
                   >
                     <FaFacebookF className="text-2xl" />
@@ -142,7 +142,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="https://www.instagram.com/risezonictravel/?igshid=MzRlODBiNWFlZA%3D%3D"
+                    href=""
                     className="text-slate-600"
                   >
                     <FaInstagram className="text-2xl" />
@@ -150,7 +150,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="https://www.linkedin.com/company/risezonic-travel/"
+                    href=""
                     className="text-slate-600"
                   >
                     <FaLinkedinIn className="text-2xl" />
@@ -163,7 +163,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="https://youtube.com/@risezonictravel"
+                    href=""
                     className="text-slate-600"
                   >
                     <FaYoutube className="text-2xl" />
